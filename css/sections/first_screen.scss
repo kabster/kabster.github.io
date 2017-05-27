@@ -1,0 +1,97 @@
+.first-screen {
+	background: url(../../img/bg/1.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header {
+	padding-top: 16px;
+}
+
+.header__logo {
+	float: left;
+	width: 25%;
+}
+
+.header__menu {
+	float: left;
+	width: 75%;
+	text-align: right;
+}
+
+.header__list {
+	padding-top: 16px;
+}
+.header__item {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+.header__item:after {
+	content:"";
+	display: inline-block;
+	vertical-align: middle;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #fff;
+	margin-left: 15px;
+}
+
+.header__item:nth-child(6):after {
+	display: none;
+}
+.header__item:last-child:after {
+	display: none;
+}
+
+.header__link {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'ubuntu', sans-serif;
+}
+
+.header__button {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 9px 0;
+}
+
+.btn {
+	background: #e45028;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 9px 16px;
+	font-family: 'ubuntu';
+	transition: background .3s;
+}
+
+.content {
+}
+
+.content__img {
+	width: 40%;
+	float: left;
+}
+
+.content__desc {
+	width: 50%;
+	float: left;
+	font-family: 'gagalin',sans-serif;
+	color: yellow;
+	font-size: 70px;
+	line-height: 1;
+	padding-left: 70px;
+}
+
+.content__desc span {
+	font-family: 'lifehack',sans-serif;
+	color: #fff;
+	font-size: 50px;
+}
