@@ -21,14 +21,13 @@ body {
 
 .wrapper {
   overflow: hidden;
-  min-width: 100%;
+  min-height: 100%;
   max-width: 960px;
 }
 
 .section {
   height: 100vh;
   min-height: 650px;
-  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
