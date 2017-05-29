@@ -3,14 +3,14 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
 
-@import "layoiut/layout";
+@import "layout/layout.scss";
 
 //sections
-@import "sections/hero";
-@import "sections/best";
-@import "sections/burgers";
-@import "sections/team";
-@import "sections/menu";
-@import "sections/reviews";
-@import "sections/order";
-@import "sections/map";
+@import "sections/hero.scss";
+@import "sections/best.scss";
+@import "sections/burgers.scss";
+@import "sections/team.scss";
+@import "sections/menu.scss";
+@import "sections/reviews.scss";
+@import "sections/order.scss";
+@import "sections/map.scss";
