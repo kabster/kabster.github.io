@@ -1,5 +1,16 @@
-@import "layout/normalize.scss";
-@import "layout/adjustment.scss";
-@import "layout/fonts.scss";
-@import "sections/first_screen.scss";
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
 
+@import "layoiut/layout";
+
+//sections
+@import "sections/hero";
+@import "sections/best";
+@import "sections/burgers";
+@import "sections/team";
+@import "sections/menu";
+@import "sections/reviews";
+@import "sections/order";
+@import "sections/map";
