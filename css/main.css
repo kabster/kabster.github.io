@@ -80,6 +80,7 @@ footer {
 .best__item {
   display: inline-block;
   text-align: center;
+  width: 33.3%;
 }
 
 .best__title {
