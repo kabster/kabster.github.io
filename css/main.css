@@ -82,6 +82,13 @@ footer {
   text-align: center;
 }
 
+.best__title {
+  font-family: Lifehack;
+  font-size: 24px;
+  color: #2f3234;
+  margin-bottom: 20px;
+}
+
 .burgers {
   background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }

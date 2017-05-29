@@ -3,9 +3,18 @@
 	background-size: cover;
 }
 
+.best__list {
 
+}
 
 .best__item {
 	display: inline-block;
 	text-align: center;
+}
+
+.best__title {
+	font-family: Lifehack;
+	font-size: 24px;
+	color: $black;
+	margin-bottom: 20px;
 }
