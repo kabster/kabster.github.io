@@ -56,6 +56,16 @@ footer {
   max-width: 960px;
 }
 
+.section__title {
+  color: #f9b43b;
+  font-family: Gagalin, sans-serif;
+  font-size: 72px;
+}
+
+.section__title--black {
+  color: #2f3234;
+}
+
 .hero {
   background: url("../img/bg/hero.jpg") center center no-repeat;
   background-size: cover;

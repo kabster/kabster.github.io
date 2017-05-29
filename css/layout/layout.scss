@@ -58,3 +58,13 @@ p {
 footer {
 	max-width: $container-width + 20px;
 }
+
+.section__title	{
+	color: $yellow;
+	font-family: Gagalin, sans-serif;
+	font-size: 72px;
+}
+
+.section__title--black {
+	color: $black;
+}
