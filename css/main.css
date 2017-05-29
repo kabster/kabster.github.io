@@ -76,6 +76,10 @@ footer {
   background-size: cover;
 }
 
+.best__item {
+  display: inline-block;
+}
+
 .burgers {
   background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }
