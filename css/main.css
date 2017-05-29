@@ -67,8 +67,7 @@ footer {
 }
 
 .burgers {
-  background: url("../img/bg/burgers.jpg") center center no-repeat;
-  background-size: cover;
+  background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }
 
 .team {
