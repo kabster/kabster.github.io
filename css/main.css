@@ -76,12 +76,6 @@ footer {
   background-size: cover;
 }
 
-.section__title {
-  color: #f9b43b;
-  font-family: Gagalin, sans-serif;
-  font-size: 72px;
-}
-
 .burgers {
   background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }
