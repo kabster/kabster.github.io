@@ -93,6 +93,11 @@ footer {
   vertical-align: middle;
 }
 
+.best__icon {
+  width: 100px;
+  height: 100px;
+}
+
 .best__title {
   font-family: Lifehack;
   font-size: 24px;
