@@ -63,8 +63,9 @@ footer {
   text-align: center;
 }
 
-.section__title--black {
+.section__title_black {
   color: #2f3234;
+  margin-bottom: 80px;
 }
 
 .hero {
