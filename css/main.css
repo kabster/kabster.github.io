@@ -97,6 +97,11 @@ footer {
   margin-bottom: 20px;
 }
 
+.best__text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 .burgers {
   background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }
