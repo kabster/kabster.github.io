@@ -24,6 +24,9 @@ body {
 	margin: 0 auto;
 	width: $container-width;
 	position: relative;
+}
+
+.container_v-align {
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -64,6 +67,11 @@ footer {
 	max-width: $container-width + 20px;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .section__title	{
 	color: $yellow;
 	font-family: Gagalin, sans-serif;
@@ -74,4 +82,10 @@ footer {
 .section__title_black {
 	color: $black;
 	margin-bottom: 80px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
 }

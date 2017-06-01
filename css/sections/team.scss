@@ -1,4 +1,109 @@
 .team {
 	background: url("../img/bg/team.jpg") center center no-repeat;
 	background-size: cover;
+	position: relative;
 }
+
+.team__section {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	background: rgba(#2f3234, .93%);
+	padding: 40px 95px 0 75px;
+	.section__title {
+		text-align: left;
+	}
+}
+
+
+
+.team__acco {
+	margin-top: 50px;
+	margin-left: 19px;
+}
+
+.team-acco__item {
+	margin-bottom: 35px;
+}
+
+.team-acco__item_active {
+	.team-acco__content {
+		display: block;
+	}
+
+	.team-acco__trigger {
+		color: $yellow;
+		&:before {
+			transform: rotate(-180deg);
+		}
+	}
+}
+
+.team-acco__trigger {
+	color: #fff;
+	font-size: 14px;
+	font-family: gagalin;
+	text-decoration: none;
+	position: relative;
+	display: block;
+
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: -19px;
+		top: 8px;
+		width: 0;
+		height: 0;
+		border-top: 7px solid $yellow;
+		border-right: 5px solid transparent;
+		border-left: 5px solid transparent;
+		border-bottom: 0px solid transparent;
+		transform: rotate(0deg);
+		transition: .5s;
+	}
+}
+
+.team-acco__content {
+	padding-top: 14px;
+	display: none;
+}
+
+.team-acco__pic {
+	float: left;
+	width: 30%;
+}
+
+.team-acco__img {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+.team-acco__text {
+	float: left;
+	width: 70%;
+}
+
+.team-acco__title {
+	font-family: ubuntu;
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 14px;
+}
+
+.team-acco__text-content {
+	font-family: ubuntu;
+	font-weight: 200;
+	font-size: 14px;
+	color: #fff;
+}
+

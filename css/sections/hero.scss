@@ -2,3 +2,91 @@
 	background: url("../img/bg/hero.jpg") center center no-repeat;
 	background-size: cover;
 }
+
+header {
+	max-width: $container-width;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.header__leftside,
+.header__rightside {
+	float: left;
+}
+
+.header__leftside {
+	width: 15%;
+	text-align: left;
+}
+
+.header__rightside {
+	width: 85%;
+	text-align: right;
+	padding-top: 30px;
+}
+
+.menu__list {
+
+}
+
+.menu__item {
+	display: inline-block;
+	margin-left: 17px;
+	&:after {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background: #fff;
+		margin-left: 17px;
+	}
+	&:last-child, &:nth-child(6) {
+		&:after {
+			display: none;
+		}
+	}
+	&:first-child {
+		margin-left: 0;
+	}
+}	
+
+.menu__link {
+	font-family: "ubuntu";
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.menu__link_button {
+	background: $orange;
+	padding: 13px 16px;
+	border-radius: 5px;
+}
+
+.hero__leftside,.hero__rightside {
+	float: left;
+	width: 50%;
+}
+
+.section__title_hero {
+	text-align: left;
+	padding-top: 120px;
+	margin-bottom: 10px;
+}
+
+.hero__desc {
+	font-family: lifehack;
+	color: #fff;
+	font-size: 65px;
+	line-height: 1em;
+}
+
+.hero__arrow {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	margin-left: -15px;
+}

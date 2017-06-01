@@ -1,3 +1,168 @@
 .burgers {
 	background: linear-gradient(0deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 90%);
 }
+
+.burgers .container {
+		position: relative;
+	}
+
+.burgers__leftside,.burgers__rightside {
+	float: left;
+	width: 50%;
+}
+
+.burgers__image-pic {
+	width: 465px;
+}
+
+.burgers .section__title {
+	color: #fff;
+	text-align: left;
+	line-height: 1em;
+	margin-bottom: 10px;
+}
+
+.burgers__desc {
+	font-family: ubuntu;
+	font-weight: 200;
+	color: #fff;
+	line-height: 1.8;
+	font-size: 14px;
+	margin: 25px 0 10px 0;
+}
+
+.burgers__price {
+	font-family: gagalin;
+	font-weight: 300;
+	font-size: 72px;
+	color: $orange;
+	display: inline-block;
+	line-height: 1em;
+	span {
+		display: inline-block;
+		font-size: 30px;
+	}
+}
+
+.burgers__button{
+	background:	$orange;	
+	padding: 10px 16px;	
+	text-transform: uppercase;	
+	color: #fff;	
+	border-radius: 5px;
+	margin-left: 30px;	
+	font-size: 13px;	
+}
+
+.burgers__consist {
+	display: block;	
+	position: absolute;	
+	left: 0;	
+	top: -50px;	
+	width: 90px;	
+	height: 90px;	
+	background: rgba($orange,.4);	
+	border-radius: 5px; 	
+	transition: all .3s;
+	&:hover {
+		background:	rgba($orange,1);
+	}
+}
+
+
+.icon__wrap {
+	position: absolute;
+	left: 50%;	
+	top: 50%;	
+	transform: 	translate( -50%, -50%);
+}
+
+.consist__icon {
+}
+
+.consist__title {
+	font-family: gagalin;
+	color: #fff;	
+	font-size: 14px;	
+	margin-bottom: 0;
+
+}
+
+.burgers__energy {
+	position: absolute;	
+	bottom: 0;
+	transform: translateY(50%);
+	opacity: .5;
+}
+
+.energy__image {
+	position: relative;
+}
+
+.energy__value {
+	position: absolute;
+	font-family: gagalin;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 200;
+	color: #fff;
+	top: 25px;
+	left: 0;
+	right: 0;
+}
+
+.energy__title {
+	font-family: gagalin;
+	font-weight: 200;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin-top: -5px;
+}
+
+.consist__dropdown {
+	width: 270px;
+	position: absolute;
+	top: -50px;
+	background:rgba(#fff,.9);
+	border-radius: 5px;
+	padding: 20px;
+	left: 90px;
+}
+
+.consist__table {
+	position: relative;
+	width: 100%;
+}
+
+.consist__row {
+	display: block;
+	margin: 9px 0;
+	&:first-child, &:last-child {
+		margin: 0;
+	}
+}
+
+.consist-dropdown__icon {
+	padding-right: 25px;
+	width: 30%;
+}
+
+.consist-dropdown__icon-pic {
+	width: 44px;
+}
+
+.consist-dropdown__title {
+	font-family: ubuntu;
+	font-weight: 400;
+	color: #000;
+	width: 50%;
+}
+
+.consist-dropdown__weight {
+	text-align: right;
+	color: #000;
+	font-weight: 200;
+	width: 20%;
+}
