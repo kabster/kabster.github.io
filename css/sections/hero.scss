@@ -54,16 +54,24 @@ header {
 
 .menu__link {
 	font-family: "ubuntu";
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 13px;
 	text-transform: uppercase;
 	color: #fff;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .menu__link_button {
 	background: $orange;
 	padding: 13px 16px;
 	border-radius: 5px;
+	transition: .3s;
+	&:hover {
+		background: #c1401e;
+		text-decoration: none;
+	}	
 }
 
 .hero__leftside,.hero__rightside {
@@ -89,4 +97,10 @@ header {
 	left: 50%;
 	bottom: 40px;
 	margin-left: -15px;
+	cursor: pointer;
+	transition: all .5s ease;
+	opacity: .6;
+	&:hover {
+		opacity: .9;
+	}
 }

@@ -16,6 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #2f3234;
   margin: 0px;
+  overflow: hidden;
 }
 
 .container {
@@ -189,16 +190,28 @@ header {
 
 .menu__link {
   font-family: "ubuntu";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 .menu__link_button {
   background: #e45028;
   padding: 13px 16px;
   border-radius: 5px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.menu__link_button:hover {
+  background: #c1401e;
+  text-decoration: none;
 }
 
 .hero__leftside, .hero__rightside {
@@ -224,6 +237,15 @@ header {
   left: 50%;
   bottom: 40px;
   margin-left: -15px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: .6;
+}
+
+.hero__arrow:hover {
+  opacity: .9;
 }
 
 .best {
@@ -681,7 +703,7 @@ header {
   height: 60px;
   background-size: cover;
   padding-top: 10px;
-  width: 100%;
+  min-width: 100%;
   margin-top: -60px;
 }
 

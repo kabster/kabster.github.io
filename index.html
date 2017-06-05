@@ -5,13 +5,18 @@
 	<title>Burger</title>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/jquery.fullpage.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 	
 	<div class="wrapper">
 		<div class="maincontent">
-			<section class="section hero">
+			<section class="section hero" data-index="1">
 				<header class="header clearfix">
 						<div class="header__leftside">
 							<div class="header__logo">
@@ -103,13 +108,13 @@
 						<div class="header__rightside">
 							<div class="header__menu">
 								<ul class="menu__list">
-									<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Бургеры</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Команда</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Меню</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-									<li class="menu__item"><a href="#" class="menu__link menu__link_button">заказать</a></li>
+									<li class="menu__item"><a href="1" class="menu__link">О нас</a></li>
+									<li class="menu__item"><a href="2" class="menu__link">Бургеры</a></li>
+									<li class="menu__item"><a href="3" class="menu__link">Команда</a></li>
+									<li class="menu__item"><a href="4" class="menu__link">Меню</a></li>
+									<li class="menu__item"><a href="5" class="menu__link">Отзывы</a></li>
+									<li class="menu__item"><a href="6" class="menu__link">Контакты</a></li>
+									<li class="menu__item"><a href="7" class="menu__link menu__link_button">заказать</a></li>
 								</ul>
 							</div>
 						</div>
@@ -137,7 +142,7 @@
 				</svg>
 			</div>
 			</section>
-			<section class="section best">
+			<section class="section best" data-index="2">
 				<div class="container container_v-align">
 					<div class="section__title section__title_black">Мы лучшие</div>
 					<ul class="best__list">
@@ -1563,7 +1568,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="section burgers">
+			<section class="section burgers" data-index="3">
 				<div class="container container_v-align clearfix">
 					<div class="burgers__leftside">
 						<div class="burgers__image">
@@ -1648,7 +1653,7 @@
 
 				
 			</section>
-			<section class="section team">
+			<section class="section team" data-index="4">
 				<div class="team__section">
 					<div class="section__title">
 						Команда
@@ -1724,7 +1729,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="section menu">
+			<section class="section menu" data-index="5">
 
 				<ul class="menu__acco clearfix">
 
@@ -1759,7 +1764,7 @@
 				</ul>
 
 			</section>
-			<section class="section reviews">
+			<section class="section reviews" data-index="6">
 
 				<ul class="reviews__list clearfix">
 
@@ -1815,7 +1820,7 @@
 				</ul>
 
 			</section>
-			<section class="section order"></section>
+			<section class="section order" data-index="7"></section>
 			<section class="section map">
 				<div class="yandex-map"></div>
 				<footer class="footer">
@@ -1837,7 +1842,10 @@
 	</ul>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.onepage-scroll.min.js"></script>
+
+	<script src="js/jquery.fullpage.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>	
+
 	<script src="js/main.js"></script>
 </body>
 </html>
